@@ -15,7 +15,8 @@
   align-items: center;
 }
 
-.nav a, .title a {
+.nav a,
+.title a {
   text-decoration: none;
   color: $font-color;
 }
@@ -24,6 +25,7 @@
   font-size: 2.5rem;
 }
 
-.nav a:hover, .title h1:hover {
+.nav a:hover,
+.title h1:hover {
   color: $lighter-color;
 }

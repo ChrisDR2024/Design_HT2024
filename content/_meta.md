@@ -3,7 +3,7 @@ Logo: image/logo.png
 Tagline: My portfolio.
 Social:
     - title: Link till Chris's github repo.
-      url: https://github.com/ChrisDR2024/Design_HT2024
+      url: https://github.com/chrisDRBTH2024/Design_HT2024
       icon: fab fa-github
     - title: Link to Chris Gmail account.
       url: mailto:kricke87@gmail.com

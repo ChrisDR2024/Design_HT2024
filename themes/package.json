@@ -16,11 +16,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "normalize.css": "^8.0.1",
-    "sass": "^1.81.0",
-    "stylelint": "^16.10.0",
+    "sass": "^1.82.0",
+    "stylelint": "^16.11.0",
     "stylelint-config-sass-guidelines": "^12.1.0"
-  }
+  },
+  "description": ""
 }

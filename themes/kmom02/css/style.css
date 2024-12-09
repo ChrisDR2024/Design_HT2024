@@ -6431,7 +6431,8 @@ template {
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -6444,7 +6445,8 @@ body {
   flex: 1 0 auto;
 }
 
-.header, .footer {
+.header,
+.footer {
   flex: 0 0 auto;
 }
 
@@ -6488,7 +6490,12 @@ body {
   font-family: "Funnel Sans", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Poppins", serif;
 }
 
@@ -6516,7 +6523,11 @@ p {
   margin: 0 auto;
 }
 
-h1, h2, h3, p, ul {
+h1,
+h2,
+h3,
+p,
+ul {
   margin-bottom: 1rem;
 }
 
@@ -6545,7 +6556,7 @@ h1, h2, h3, p, ul {
   margin-bottom: 2rem;
 }
 
-@media (max-width: 768px) {
+@media (max-widhth: 768px) {
   .intro {
     flex-direction: column;
     align-items: center;
@@ -6568,10 +6579,14 @@ h1, h2, h3, p, ul {
   justify-content: space-between;
   align-items: center;
 }
-.footer .social a {
+
+.social a {
   text-decoration: none;
   font-size: 3em;
-  color: white;
+  color: #fff;
+}
+.social a:hover {
+  color: #809cbb;
 }
 
 .header {
@@ -6591,7 +6606,8 @@ h1, h2, h3, p, ul {
   align-items: center;
 }
 
-.nav a, .title a {
+.nav a,
+.title a {
   text-decoration: none;
   color: #fff;
 }
@@ -6600,24 +6616,25 @@ h1, h2, h3, p, ul {
   font-size: 2.5rem;
 }
 
-.nav a:hover, .title h1:hover {
-  color: #809CBB;
+.nav a:hover,
+.title h1:hover {
+  color: #809cbb;
 }
 
 .color-palette {
   display: flex;
-  flex-direction: row; /* Align items side by side */
+  flex-direction: row;
   margin: 20px 0;
-  justify-content: center; /* Center the palette */
+  justify-content: center;
   align-items: center;
   border: 1px solid #ccc;
 }
 
 .color {
   flex: 1;
-  height: 30rem; /* Ensure height matches the look */
+  height: 30rem;
   display: flex;
-  flex-direction: column; /* Align text and color box vertically */
+  flex-direction: column;
   justify-content: flex-end;
   align-items: center;
   text-align: center;
@@ -6638,7 +6655,7 @@ h1, h2, h3, p, ul {
 }
 
 .alt-background-color {
-  background-color: #C1C7D4;
+  background-color: #c1c7d4;
   color: #000;
 }
 
@@ -6647,6 +6664,6 @@ h1, h2, h3, p, ul {
 }
 
 .lighter-color {
-  background-color: #809CBB;
+  background-color: #809cbb;
   color: #000;
 }

@@ -6,7 +6,11 @@
   margin: 0 auto;
 }
 
-h1,h2,h3,p, ul {
+h1,
+h2,
+h3,
+p,
+ul {
   margin-bottom: 1rem;
 }
 
@@ -21,6 +25,7 @@ h1,h2,h3,p, ul {
   justify-content: space-between;
   gap: 1rem;
   width: 100%;
+  
   p {
     width: 100%;
     max-width: 500px;
@@ -36,20 +41,19 @@ h1,h2,h3,p, ul {
   margin-bottom: 2rem;
 }
 
-
-@media (max-width: 768px) {
+@media (max-widhth: 768px) {
   .intro {
-    flex-direction: column; 
-    align-items: center; 
-     p {
-      width: 80%; 
-      max-width: 100%; 
-     }
+    flex-direction: column;
+    align-items: center;
+    
+    p {
+      width: 80%;
+      max-width: 100%;
+    }
   }
 
   .chris {
-    width: 80%; 
+    width: 80%;
     max-width: 250px;
   }
 }
-

@@ -6,11 +6,17 @@
   padding: 2rem;
   justify-content: space-between;
   align-items: center;
-  .social {
-    a {
-      text-decoration: none;
-      font-size: 3em;
-      color: white;
-    }
+}
+
+.social {
+  a {
+    text-decoration: none;
+    font-size: 3em;
+    color: #fff;
+  }
+  
+  a:hover {
+    color: $lighter-color;
   }
 }
+
