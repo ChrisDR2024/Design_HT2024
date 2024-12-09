@@ -1,0 +1,46 @@
+.color-palette {
+  display: flex;
+  flex-direction: row; 
+  margin: 20px 0;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+
+.color {
+  flex:1;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.white-color {
+  background-color: $font-color;
+  color: $font-alternative-color; 
+}
+
+.black-color {
+  background-color: $font-alternative-color;
+}
+
+.background-color {
+  background-color: $background-color;
+}
+
+.alt-background-color {
+  background-color: $background-alternative-color;
+  color: $font-alternative-color;
+}
+
+.darker-color {
+  background-color: $darker-color;
+}
+
+.lighter-color {
+  background-color: $lighter-color;
+  color: $font-alternative-color;
+}

@@ -1,0 +1,16 @@
+.footer {
+  max-width: 105rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  .social {
+    a {
+      text-decoration: none;
+      font-size: 3em;
+      color: white;
+    }
+  }
+}
